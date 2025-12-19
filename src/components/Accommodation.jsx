@@ -65,7 +65,7 @@ const Accommodation = () => {
               <h3 className="text-[#E8A87C] text-base font-semibold mb-2">
                 HACKATHON ON MOBILE DEVICE and Application Security
               </h3>
-              <p className="text-[#E8A87C] text-base font-semibold mb-4">February 2026</p>
+              <p className="text-[#E8A87C] text-base font-semibold mb-4">March 2026</p>
               <p className="text-sm text-[#F2D5C4]">
                 Contact:
                 <br />
