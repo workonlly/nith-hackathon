@@ -398,19 +398,19 @@ const ProblemStatements = () => {
   return (
     <div className="container mx-auto px-4 py-8 lg:py-12">
       <div className="max-w-6xl mx-auto">
-        <h4 className="text-3xl font-bold text-[#223d71] mb-8">Problem Statements</h4>
+        <h4 className="text-3xl font-bold text-[#5A2A25] mb-8">Problem Statements</h4>
 
         {/* Tab Navigation */}
         <div className="mb-6">
-          <div className="flex flex-wrap gap-2 border-b-2 border-gray-200">
+          <div className="flex flex-wrap gap-2 border-b-2 border-[#5A2A25]">
             {problemStatements.map((ps) => (
               <button
                 key={ps.id}
                 onClick={() => setActiveTab(ps.id)}
                 className={`px-6 py-3 font-medium transition-all duration-200 relative ${
                   activeTab === ps.id
-                    ? 'text-[#2c7ec6] border-b-2 border-[#2c7ec6] -mb-0.5'
-                    : 'text-gray-600 hover:text-[#223d71]'
+                    ? 'text-[#E8A87C] border-b-2 border-[#E8A87C] -mb-0.5'
+                    : 'text-[#33110E] hover:text-[#5A2A25]'
                 }`}
               >
                 Problem Statement {ps.id}
@@ -427,11 +427,11 @@ const ProblemStatements = () => {
               className={`${activeTab === ps.id ? 'block' : 'hidden'}`}
             >
               <div className="mb-6">
-                <h3 className="text-2xl font-semibold text-[#223d71] pb-3 border-b-2 border-[#2c7ec6] inline-block">
+                <h3 className="text-2xl font-semibold text-[#5A2A25] pb-3 border-b-2 border-[#E8A87C] inline-block">
                   {ps.title}
                 </h3>
               </div>
-              <div className="prose max-w-none text-gray-700">{ps.content}</div>
+              <div className="prose max-w-none text-[#33110E]">{ps.content}</div>
             </div>
           ))}
         </div>

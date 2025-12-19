@@ -10,10 +10,10 @@ const Registration = () => {
               href="https://forms.gle/your-nith-registration-form"
               target="_blank"
               rel="noopener noreferrer"
-              className="block bg-[#2c7ec6] hover:bg-[#2570b0] transition-colors rounded-lg p-8 text-center shadow-lg group"
+              className="block bg-[#5A2A25] hover:bg-[#4A1C18] transition-colors rounded-lg p-8 text-center shadow-lg group border-2 border-[#E8A87C]"
             >
               <div className="relative">
-                <h3 className="text-white text-xl font-semibold group-hover:scale-105 transition-transform">
+                <h3 className="text-[#F2D5C4] text-xl font-semibold group-hover:scale-105 transition-transform">
                   Registration
                 </h3>
               </div>
@@ -21,7 +21,7 @@ const Registration = () => {
           </div>
 
           {/* Registration Guidelines */}
-          <div className="space-y-6 text-gray-700">
+          <div className="space-y-6 text-[#33110E]">
             <p className="text-base">
               To ensure a smooth and fair competition, all participants must follow these{' '}
               <strong>registration guidelines:</strong>
@@ -102,17 +102,17 @@ const Registration = () => {
         {/* Sidebar - Takes 1/3 width on desktop */}
         <aside className="lg:w-1/3">
           <div className="lg:sticky lg:top-24">
-            <div className="bg-[#192f59] text-white p-8 rounded-lg">
-              <h3 className="text-[#2c7ec6] text-base font-semibold mb-2">
+            <div className="bg-[#3E1714] text-white p-8 rounded-lg shadow-lg border border-[#5A2A25]">
+              <h3 className="text-[#E8A87C] text-base font-semibold mb-2">
                 HACKATHON ON MOBILE DEVICE and Application Security
               </h3>
-              <p className="text-[#2c7ec6] text-base font-semibold mb-4">September 2025</p>
-              <p className="text-sm">
+              <p className="text-[#E8A87C] text-base font-semibold mb-4">February 2026</p>
+              <p className="text-sm text-[#F2D5C4]">
                 Contact:
                 <br />
                 <a
                   href="mailto:hackathon@nith.ac.in"
-                  className="hover:text-[#2c7ec6] transition-colors"
+                  className="hover:text-[#E8A87C] transition-colors"
                 >
                   hackathon@nith.ac.in
                 </a>
