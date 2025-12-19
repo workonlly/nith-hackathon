@@ -30,23 +30,23 @@ const MainContent = () => {
   ];
 
   const timeline = [
-    { event: "Grand Challenge Launch", date: "25th March 2025" },
+    { event: "Grand Challenge Launch", date: "15th October 2025" },
     {
       event: "Last Date for Registration of Team and submission of idea",
-      date: "02nd May 2025",
+      date: "15th December 2025",
     },
-    { event: "First Round of Evaluation", date: "May 2025" },
+    { event: "First Round of Evaluation", date: "December 2025" },
     {
       event: "Last date for Submission after the First Round of Evaluation",
-      date: "June 2025",
+      date: "January 2026",
     },
-    { event: "Second Round of Evaluation (Demo/PoC)", date: "July 2025" },
+    { event: "Second Round of Evaluation (Demo/PoC)", date: "Late January 2026" },
     {
       event: "Last Date of Submission of Final Product (After Second Evaluation)",
-      date: "August 2025",
+      date: "Early February 2026",
     },
-    { event: "Result for Grand Finale Teams", date: "August 2025" },
-    { event: "Grand Finale", date: "September 2025" },
+    { event: "Result for Grand Finale Teams", date: "Mid February 2026" },
+    { event: "Grand Finale", date: "Late February 2026" },
     { event: "Awards Ceremony", date: "To be announced" },
   ];
 
@@ -56,14 +56,14 @@ const MainContent = () => {
       <section>
         <div className="mb-8">
           <div className="flex items-center mb-6">
-            <h3 className="text-2xl font-semibold text-[#223d71] mr-8">
+            <h3 className="text-2xl font-semibold text-[#5A2A25] mr-8">
               About Hackathon
             </h3>
-            <div className="flex-1 border-b-2 border-gray-300"></div>
+            <div className="flex-1 border-b-2 border-[#5A2A25]"></div>
           </div>
         </div>
 
-        <div className="space-y-4 text-base text-gray-700">
+        <div className="space-y-4 text-base text-[#33110E]">
           <p className="text-justify leading-relaxed">
             Hackathon Under Information Security Education Awareness (ISEA) on
             theme Mobile Device and Application Security at NIT Hamirpur. The
@@ -86,7 +86,7 @@ const MainContent = () => {
               {objectives.map((objective, index) => (
                 <li key={index} className="flex items-start">
                   <svg
-                    className="w-5 h-5 text-[#192f59] mr-3 mt-0.5 flex-shrink-0"
+                    className="w-5 h-5 text-[#E8A87C] mr-3 mt-0.5 flex-shrink-0"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                   >
@@ -104,24 +104,24 @@ const MainContent = () => {
       <section>
         <div className="mb-8">
           <div className="flex items-center mb-6">
-            <h3 className="text-2xl font-semibold text-[#223d71] mr-8">
+            <h3 className="text-2xl font-semibold text-[#5A2A25] mr-8">
               Hackathon Timeline and Structure:
             </h3>
-            <div className="flex-1 border-b-2 border-gray-300"></div>
+            <div className="flex-1 border-b-2 border-[#5A2A25]"></div>
           </div>
         </div>
 
-        <div className="space-y-4 text-base text-gray-700">
+        <div className="space-y-4 text-base text-[#33110E]">
           <p>
-            The hackathon will be conducted over a period of 5 months with three
+            The hackathon will be conducted over a period of 4 months with three
             rounds of evaluation.
           </p>
 
           <ul className="space-y-4">
             {phases.map((phase, index) => (
-              <li key={index} className="flex items-start border-b border-gray-200 pb-4">
+              <li key={index} className="flex items-start border-b border-[#E3AFA0]/30 pb-4">
                 <svg
-                  className="w-5 h-5 text-[#192f59] mr-3 mt-1 flex-shrink-0"
+                  className="w-5 h-5 text-[#E8A87C] mr-3 mt-1 flex-shrink-0"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                 >
@@ -142,10 +142,10 @@ const MainContent = () => {
       <section>
         <div className="mb-8">
           <div className="flex items-center mb-6">
-            <h3 className="text-2xl font-semibold text-[#223d71] mr-8">
+            <h3 className="text-2xl font-semibold text-[#5A2A25] mr-8">
               Timeline:
             </h3>
-            <div className="flex-1 border-b-2 border-gray-300"></div>
+            <div className="flex-1 border-b-2 border-[#5A2A25]"></div>
           </div>
         </div>
 
@@ -156,11 +156,11 @@ const MainContent = () => {
                 <tr
                   key={index}
                   className={`${
-                    index % 2 === 0 ? "bg-gray-50" : "bg-white"
-                  } border-b border-gray-200`}
+                    index % 2 === 0 ? "bg-[#F5D7C8]/20" : "bg-white"
+                  } border-b border-[#E3AFA0]/30`}
                 >
-                  <td className="px-4 py-3 text-gray-700">{item.event}</td>
-                  <td className="px-4 py-3 text-gray-700 font-medium">
+                  <td className="px-4 py-3 text-[#33110E]">{item.event}</td>
+                  <td className="px-4 py-3 text-[#5A2A25] font-medium">
                     {item.date}
                   </td>
                 </tr>
@@ -174,14 +174,14 @@ const MainContent = () => {
       <section>
         <div className="mb-8">
           <div className="flex items-center mb-6">
-            <h3 className="text-2xl font-semibold text-[#223d71] mr-8">
+            <h3 className="text-2xl font-semibold text-[#5A2A25] mr-8">
               About NIT Hamirpur
             </h3>
-            <div className="flex-1 border-b-2 border-gray-300"></div>
+            <div className="flex-1 border-b-2 border-[#5A2A25]"></div>
           </div>
         </div>
 
-        <div className="text-base text-gray-700">
+        <div className="text-base text-[#33110E]">
           <p className="text-justify leading-relaxed">
             Established in 1986, National Institute of Technology Hamirpur is an
             institute of national importance dedicated to excellence in
