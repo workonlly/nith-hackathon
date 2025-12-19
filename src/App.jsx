@@ -10,6 +10,7 @@ import Registration from './components/Registration'
 import Accommodation from './components/Accommodation'
 import Committee from './components/Committee'
 import Contact from './components/Contact'
+import Prizes from './components/Prizes'
 
 function App() {
   // Simple page routing without React Router (for demonstration)
@@ -84,6 +85,12 @@ function App() {
       {currentPage === 'contact' && (
         <div className="pt-8 lg:pt-12">
           <Contact />
+        </div>
+      )}
+
+      {currentPage === 'prizes' && (
+        <div className="pt-8 lg:pt-12">
+          <Prizes />
         </div>
       )}
       

@@ -30,24 +30,24 @@ const MainContent = () => {
   ];
 
   const timeline = [
-    { event: "Grand Challenge Launch", date: "15th October 2025" },
+    { event: "Grand Challenge Launch", date: "15th January 2026" },
     {
       event: "Last Date for Registration of Team and submission of idea",
-      date: "15th December 2025",
+      date: "15th February 2026",
     },
-    { event: "First Round of Evaluation", date: "December 2025" },
+    { event: "First Round of Evaluation", date: "February 2026" },
     {
       event: "Last date for Submission after the First Round of Evaluation",
-      date: "January 2026",
+      date: "Late February 2026",
     },
-    { event: "Second Round of Evaluation (Demo/PoC)", date: "Late January 2026" },
+    { event: "Second Round of Evaluation (Demo/PoC)", date: "Early March 2026" },
     {
       event: "Last Date of Submission of Final Product (After Second Evaluation)",
-      date: "Early February 2026",
+      date: "10th March 2026",
     },
-    { event: "Result for Grand Finale Teams", date: "Mid February 2026" },
-    { event: "Grand Finale", date: "Late February 2026" },
-    { event: "Awards Ceremony", date: "To be announced" },
+    { event: "Result for Grand Finale Teams", date: "12th March 2026" },
+    { event: "Grand Finale", date: "14-15 March 2026" },
+    { event: "Awards Ceremony", date: "15th March 2026" },
   ];
 
   return (

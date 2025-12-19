@@ -1,3 +1,5 @@
+import nithLogo from '../assets/nith-logo.png';
+
 const Footer = () => {
   return (
     <footer className="bg-[#33110E] text-white">
@@ -6,9 +8,9 @@ const Footer = () => {
           {/* Column 1 - Institute Info */}
           <div>
             <img
-              src="/images/nith-footer-logo.png"
+              src={nithLogo}
               alt="NIT Hamirpur"
-              className="mb-4 h-16"
+              className="mb-4 h-12"
             />
             <div className="text-sm space-y-1 text-[#E3AFA0]">
               <p>NIT Hamirpur</p>
